@@ -24,11 +24,38 @@ table {
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #d84316;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #190505;
   }
+  .MRSX:hover,
+  .MRSY:hover{
+    border: 2px solid rgb(184, 13, 119);
+    box-shadow: 5px 5px 8px 5px rgb(22, 187, 232)
+  }
+  ul.navbar-horizontal 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li 
+{
+    float:left; 
+    color:#ce1a1a;
+    background-color: #b6d3da
+}
+ul.navbar-horizontal a 
+{
+    display:block;
+    padding:8px
+}
+ul.navbar-horizontal a:hover 
+{  
+    background-color: #74f3a9;
+    color:white;
+}
