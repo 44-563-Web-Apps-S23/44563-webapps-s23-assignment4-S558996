@@ -30,7 +30,7 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: #190505;
+    background-color: #f44b4b;
   }
   .MRSX:hover,
   .MRSY:hover{
